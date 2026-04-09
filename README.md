@@ -25,7 +25,7 @@ Is it necessary to install the following components to be able to run the Ansibl
 - gobject-introspection
 
 ```bash
-sudo dnf install -y gcc gobject-introspection-devel cairo-gobject-devel pkg-config
+sudo dnf install -y jq ansible-core libosinfo python-gobject osinfo-db-tools intltool gcc gobject-introspection-devel cairo-gobject-devel pkg-config
 python3.11 -m pip install --user "PyGObject<3.51"
 ```
 
